@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300;400;500&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.page
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg,#b880ec,#95ceff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    border: 1px solid purple;
+    padding: 30px 50px;
+    line-height: 2rem;
+    border-radius: 5px;
+}
+.container h1
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-attribute
+{
+    padding: 6px 5px;
+}
+.form-attribute
+{
+    width: 100%;
+}
+
+.submit-button
+{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background:linear-gradient(45deg,green,lightgreen);
+    color: white;
+    font-size: 17px;
+}
+form input
+{
+    font-size: 15px;
+}
